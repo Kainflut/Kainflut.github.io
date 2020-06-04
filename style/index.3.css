@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+header {
+  position: fixed ;
+  height: 100px;
+  width: 100%;
+  background-color: #071475;
+  z-index: 1000;
+}
+body {
+  background-image: url(../image/csgo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu {
+  display: inline-block;
+  flex-grow: 14;
+}
+.menu a {
+  display: inline-block;
+  height: 50px;
+  background-color: black;
+  font-size: 20px;
+  border: 10px solid transparent;
+  border-radius: 7px;
+  margin: 25px 10px;
+}
+.menu a:hover {
+  text-decoration: none;
+  background-color: red;
+  border: 5px solid black;
+}
+.social-menu {
+  display: inline-block;
+  flex-grow: 1;
+}
+.social-menu a {
+  display: inline-block;
+  height: 40px;
+  width:40px;
+  background-image: red;
+  background-size: cover;
+  margin: 30px 10px;
+}
+.social-menu a:nth-child(1) {
+  background-image: url(../image/instagram1.png);
+}
+.social-menu a:nth-child(2) {
+  background-image: url(../image/facebook1.png);
+}
+.social-menu a:nth-child(3) {
+  background-image: url(../image/telegram1.png);
+}
+.social-menu a:nth-child(4) {
+	background-image: url(../image/steam.jpg);
+}
+.vidstup {
+  height: 150px;
+}
+header {
+  display: flex;
+}
+header .container div {
+  flex-grow: 1;
+}
+.row {
+	color:white ;
+	font-size: 20px
+}
+h1 {
+	color:#16E1E1;
+}
+p {
+	color:#FF8931;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	color:#16E1E1;
+}
+.logo a {
+  display: inline-block;
+  height: 100px;
+}
+.col-md-8 {
+  color:white;
+}
